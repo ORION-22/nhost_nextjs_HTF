@@ -7,7 +7,7 @@ import { NhostNextProvider } from "@nhost/nextjs";
 import { NhostApolloProvider } from "@nhost/react-apollo";
 
 const client = new ApolloClient({
-  uri: "https://api.spacex.land/graphql/",
+  uri: "https://flyby-gateway.herokuapp.com/",
   cache: new InMemoryCache(),
 });
 
